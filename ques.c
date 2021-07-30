@@ -1,3 +1,9 @@
+// SORTING 
+//eg: a[5] = {3,4,1,6,7,2}     n=5
+// k = 3 then array would be divided into 2 parts 0 to k and k to n
+// o/p: a[5] = {1,2,3,7,6}
+
+
 #include<stdio.h>
 #include<stdlib.h>
 
