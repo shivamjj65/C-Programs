@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+	int i,j,k;
+	for(i=9;i>=1;i--)
+	{
+		if(i>=5)
+		for(k=1;k<=i;k++)
+		{
+			printf("*\t");
+		}
+		else
+		for(k=9;j>=i;k--)
+		{
+			printf("*\t");
+		}
+		printf("\n");
+		}
+	for(i=1;i<=9;i++)
+	{
+		if(i<=5)
+		for(j=1;j<=i;j++)
+		{
+			printf("*\t");
+		}
+		else
+		for(j=9;j>=i;j--)
+		{
+			printf("*\t");
+		}
+		printf("\n");
+	}
+}
